@@ -14,7 +14,13 @@
             <a class="hero__link" href="#">Resume</a>
           </ul>
           <ul>
-            <a class="hero__link" href="#">Github</a>
+            <a
+              class="hero__link"
+              href="https://github.com/TomaszSWD"
+              target="__blank"
+              title="Tomasz Świerad GitHub"
+              >Github</a
+            >
           </ul>
           <ul>
             <a
