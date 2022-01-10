@@ -1,0 +1,22 @@
+body {
+  font-family: Circular Std Book;
+  color: #2F2F2F;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  background-color: #FFF9F3;
+}
+
+path {
+  fill: currentColor;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
