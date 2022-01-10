@@ -16,7 +16,7 @@
           <ul>
             <a
               class="hero__link"
-              href="https://github.com/TomaszSWD"
+              href="https://github.com/TomSWD"
               target="__blank"
               title="Tomasz Świerad GitHub"
               >Github</a
@@ -25,7 +25,7 @@
           <ul>
             <a
               class="hero__link"
-              href="https://www.linkedin.com/in/tomasz-%C5%9Bwierad-573a1420b/"
+              href="https://www.linkedin.com/in/tomasz-swierad/"
               target="__blank"
               title="Tomasz Świerad LinkedIn"
               >LinkedIn</a
@@ -51,8 +51,9 @@ export default {
 <style scoped>
 .background {
   position: absolute;
-  width: 100vw;
-  /* height: 100vh; pierdoli*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .hero__container {
   display: flex;
@@ -64,12 +65,11 @@ export default {
   margin: 0px auto;
   padding: 0px 20px 0px 20px;
 }
-
 .hero__website {
   font-size: 14px;
   font-weight: 700;
   margin-top: 26px;
-  margin-left: 64px;
+  margin-left: 10%;
 }
 .hero__website:hover {
   opacity: 0.8;
@@ -154,21 +154,9 @@ export default {
     width: 100%;
   }
 }
-@media (max-width: 555px) {
-  .hero__title {
-    font-size: 55px;
-    line-height: 60px;
-  }
-  .hero__sub-title {
-    font-size: 26px;
-  }
-}
 @media (max-width: 480px) {
-  /* .hero__website {
-    margin-top: 90px;
-  } */
   .hero__btn {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .hero__links {
     flex-direction: column;
@@ -177,7 +165,7 @@ export default {
   }
   .hero__copyright {
     font-size: 8px;
-    margin-top: 45px;
+    margin-top: 15px;
   }
 }
 </style>
