@@ -60,7 +60,6 @@ export default {
 }
 
 .hero__website {
-  /* display: inline-block; ....jednak nie potrzebne?*/
   font-size: 14px;
   font-weight: 700;
   margin-top: 26px;
@@ -72,7 +71,6 @@ export default {
 }
 .hero__main {
   max-width: 678px;
-  /* margin-top: calc( - 244px); */
   margin: auto;
   display: flex;
   flex-direction: column;
