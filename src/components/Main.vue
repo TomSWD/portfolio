@@ -2,7 +2,7 @@
   <div class="hero">
     <img class="background" src="@/assets/img/background.svg" />
     <div class="hero__container">
-      <a class="hero__website" href="#">swierad.pl</a>
+      <!-- <a class="hero__website" href="#">swierad.pl</a> -->
       <div class="hero__main">
         <h5 class="hero__title">Tomasz Swierad</h5>
         <h3 class="hero__sub-title">Junior Front-End Developer</h3>
@@ -32,7 +32,13 @@
             >
           </ul>
           <ul>
-            <a class="hero__link" href="#">Schedule a call</a>
+            <a
+              class="hero__link"
+              href="https://calendly.com/tomswd"
+              target="__blank"
+              title="Tomasz Świerad Schedule a call"
+              >Schedule a call</a
+            >
           </ul>
         </li>
         <div class="hero__copyright">© 2021 Tomasz Świerad</div>
@@ -65,19 +71,20 @@ export default {
   margin: 0px auto;
   padding: 0px 20px 0px 20px;
 }
-.hero__website {
+/* .hero__website {
   font-size: 14px;
   font-weight: 700;
   margin-top: 26px;
   margin-left: 10%;
-}
-.hero__website:hover {
+} */
+/* .hero__website:hover {
   opacity: 0.8;
   transition: 0.3s;
-}
+} */
 .hero__main {
   max-width: 678px;
-  margin: auto;
+  margin: 30px auto;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -109,11 +116,12 @@ export default {
 .hero__btn:hover {
   opacity: 0.8;
   transition: 0.5s;
-  width: 50%;
+  width: 30%;
 }
 .hero__footer {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 .hero__links {
   display: flex;
@@ -155,9 +163,9 @@ export default {
   }
 }
 @media (max-width: 480px) {
-  .hero__btn {
+  /* .hero__btn {
     margin-bottom: 30px;
-  }
+  } */
   .hero__links {
     flex-direction: column;
     align-items: center;
