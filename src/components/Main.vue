@@ -1,6 +1,7 @@
 <template>
   <div class="hero">
     <img class="background" src="@/assets/img/background.svg" />
+    <div></div>
     <div class="hero__container">
       <div class="hero__main">
         <h5 class="hero__title">Tomasz Swierad</h5>
@@ -171,8 +172,12 @@ export default {
   }
 }
 @media (max-width: 480px) {
+  .hero__title {
+    font-size: 45px;
+    line-height: 40px;
+  }
   .hero__btn {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .hero__links {
     flex-direction: column;
