@@ -19,7 +19,7 @@
           <ul>
             <a
               class="hero__link"
-              href="https://drive.google.com/file/d/1sDuXvRRHiHqCAQDrXFQcig1qTrN32I6y/view"
+              href="https://drive.google.com/file/d/1j2KwZYamyAIzX-CdlcTH6Al1E6-BcOPi/view"
               target="__blank"
               title="Tomasz Świerad Resume"
               >Resume</a
@@ -85,7 +85,8 @@ export default {
 }
 .hero__main {
   max-width: 678px;
-  margin: 30px auto;
+  width: 100%;
+  margin: 0 auto;
   padding-top: 70px;
   display: flex;
   flex-direction: column;
@@ -122,7 +123,10 @@ export default {
 .hero__footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 30px;
+  max-height: 200px;
+  height: 100%;
 }
 .hero__links {
   display: flex;
@@ -140,7 +144,8 @@ export default {
 }
 .hero__copyright {
   font-size: 10px;
-  margin: 86px auto 16px;
+  margin: auto;
+  margin: 0 auto;
 }
 @media (max-width: 707px) {
   .hero__main {
