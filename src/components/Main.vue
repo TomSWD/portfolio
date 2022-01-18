@@ -2,16 +2,28 @@
   <div class="hero">
     <img class="background" src="@/assets/img/background.svg" />
     <div class="hero__container">
-      <!-- <a class="hero__website" href="#">swierad.pl</a> -->
       <div class="hero__main">
         <h5 class="hero__title">Tomasz Swierad</h5>
         <h3 class="hero__sub-title">Junior Front-End Developer</h3>
-        <a class="hero__btn" href="#">Message Me</a>
+        <a
+          class="hero__btn"
+          href="mailto:endurophine@gmail.com"
+          subject="subject text"
+          target="__blank"
+          title="Tomasz Świerad e-mail"
+          >Message Me</a
+        >
       </div>
       <div class="hero__footer">
         <li class="hero__links">
           <ul>
-            <a class="hero__link" href="#">Resume</a>
+            <a
+              class="hero__link"
+              href="https://drive.google.com/file/d/1sDuXvRRHiHqCAQDrXFQcig1qTrN32I6y/view"
+              target="__blank"
+              title="Tomasz Świerad Resume"
+              >Resume</a
+            >
           </ul>
           <ul>
             <a
@@ -71,20 +83,10 @@ export default {
   margin: 0px auto;
   padding: 0px 20px 0px 20px;
 }
-/* .hero__website {
-  font-size: 14px;
-  font-weight: 700;
-  margin-top: 26px;
-  margin-left: 10%;
-} */
-/* .hero__website:hover {
-  opacity: 0.8;
-  transition: 0.3s;
-} */
 .hero__main {
   max-width: 678px;
   margin: 30px auto;
-  padding-top: 100px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -105,7 +107,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 113px;
+  width: 120px;
   height: 40px;
   background-color: #2f2f2f;
   border-radius: 8px;
@@ -116,7 +118,6 @@ export default {
 .hero__btn:hover {
   opacity: 0.8;
   transition: 0.5s;
-  width: 30%;
 }
 .hero__footer {
   display: flex;
@@ -142,13 +143,16 @@ export default {
   margin: 86px auto 16px;
 }
 @media (max-width: 707px) {
-  .hero__title {
-    line-height: 70px;
+  .hero__main {
+    padding-top: 50px;
   }
 }
 @media (max-width: 555px) {
   .hero__main {
-    padding-top: 20px;
+    padding-top: 40px;
+  }
+  .hero__title {
+    line-height: 70px;
   }
   .hero__title {
     font-size: 65px;
@@ -158,14 +162,13 @@ export default {
     font-size: 26px;
   }
   .hero__btn {
-    margin: 40px auto 100px;
-    width: 100%;
+    margin: 40px auto 70px;
   }
 }
 @media (max-width: 480px) {
-  /* .hero__btn {
-    margin-bottom: 30px;
-  } */
+  .hero__btn {
+    margin-bottom: 50px;
+  }
   .hero__links {
     flex-direction: column;
     align-items: center;
@@ -173,7 +176,7 @@ export default {
   }
   .hero__copyright {
     font-size: 8px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 }
 </style>
