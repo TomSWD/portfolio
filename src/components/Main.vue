@@ -20,7 +20,7 @@
           <ul>
             <a
               class="hero__link"
-              href="https://drive.google.com/file/d/1H8-bPca3jhqZYVxstE1Obh4NZFHcqo7p/view"
+              href="https://drive.google.com/file/d/1JMHQ70LbFCwserHUpR5q7XoI68ul7MFv/view"
               target="__blank"
               title="Tomasz Świerad Resume"
               >Resume</a
