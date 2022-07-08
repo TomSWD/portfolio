@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <!-- <img class="background" src="@/assets/img/background.svg" /> -->
+    <!-- <img class="background" src="@/assets/img/background.svg" />  Shadows version -->
     <div></div>
     <div class="hero__container">
       <div class="hero__main">
@@ -111,7 +111,7 @@ export default {
   justify-content: center;
   width: 120px;
   height: 40px;
-  background-color: #ff5900;
+  background-color: #ff8e00;
   border-radius: 8px;
   color: #fff;
   font-size: 14px;
