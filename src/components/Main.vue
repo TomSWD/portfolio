@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img class="background" src="@/assets/img/background.svg" />
+    <!-- <img class="background" src="@/assets/img/background.svg" /> -->
     <div></div>
     <div class="hero__container">
       <div class="hero__main">
@@ -88,7 +88,7 @@ export default {
   max-width: 678px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 8%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -96,7 +96,7 @@ export default {
 }
 .hero__title {
   font-size: 72px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 91px;
 }
 .hero__sub-title {
@@ -111,7 +111,7 @@ export default {
   justify-content: center;
   width: 120px;
   height: 40px;
-  background-color: #2f2f2f;
+  background-color: #ff5900;
   border-radius: 8px;
   color: #fff;
   font-size: 14px;

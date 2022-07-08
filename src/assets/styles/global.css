@@ -1,10 +1,11 @@
 body {
-  font-family: Circular Std Book;
-  color: #2F2F2F;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
   font-weight: 400;
   height: 100%;
   width: 100%;
-  background-color: #FFF9F3;
+  background-color: #19191B;
+  ;
 }
 
 path {
